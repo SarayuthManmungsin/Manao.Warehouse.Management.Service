@@ -186,7 +186,7 @@
       <Project>{0fc1126b-3af5-47f1-ba1b-b8efdbe43653}</Project>
       <Name>Manao.Warehouse.Management.ViewModel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Manao.Warehouse.Management\Manao.Warehouse.Management.Service.csproj">
+    <ProjectReference Include="..\Manao.Warehouse.Management.Service\Manao.Warehouse.Management.Service.csproj">
       <Project>{79740A3F-BC24-420D-ABE4-DB6E3B2C8303}</Project>
       <Name>Manao.Warehouse.Management.Service</Name>
     </ProjectReference>
