@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manao.Warehouse.Management.Service", "Manao.Warehouse.Management.Service\Manao.Warehouse.Management.Service.csproj", "{79740A3F-BC24-420D-ABE4-DB6E3B2C8303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manao.Warehouse.Management.Tests", "Manao.Warehouse.Management.Tests\Manao.Warehouse.Management.Tests.csproj", "{E2926A17-C980-4290-82EA-370BACF0438B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manao.Warehouse.Management.Domain", "Manao.Warehouse.Management.Domain\Manao.Warehouse.Management.Domain.csproj", "{41E12758-A9E5-4ED9-9E69-84F308CCE837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manao.Warehouse.Management.Repository", "Manao.Warehouse.Management.Repository\Manao.Warehouse.Management.Repository.csproj", "{1A142EDA-A833-4C2D-90D7-773189987B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manao.Warehouse.Management.DataAccess", "Manao.Warehouse.Management.DataAccess\Manao.Warehouse.Management.DataAccess.csproj", "{A4F94BB9-AFDE-4785-9796-E028CD7D5647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manao.Warehouse.Management.BusinessLogic", "Manao.Warehouse.Management.BusinessLogic\Manao.Warehouse.Management.BusinessLogic.csproj", "{EFE893BC-D454-48D4-B36E-401F9AAEBF7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manao.Warehouse.Management.Utils", "Manao.Warehouse.Management.Utils\Manao.Warehouse.Management.Utils.csproj", "{D3328701-1AFA-48C2-8E9C-6BDE1CC2CCC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manao.Warehouse.Management.ViewModel", "Manao.Warehouse.Management.ViewModel\Manao.Warehouse.Management.ViewModel.csproj", "{0FC1126B-3AF5-47F1-BA1B-B8EFDBE43653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manao.Warehouse.Management.IoC", "Manao.Warehouse.Management.IoC\Manao.Warehouse.Management.IoC.csproj", "{79191C75-6A81-4D69-8678-0D05289067E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79740A3F-BC24-420D-ABE4-DB6E3B2C8303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79740A3F-BC24-420D-ABE4-DB6E3B2C8303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79740A3F-BC24-420D-ABE4-DB6E3B2C8303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79740A3F-BC24-420D-ABE4-DB6E3B2C8303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2926A17-C980-4290-82EA-370BACF0438B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2926A17-C980-4290-82EA-370BACF0438B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2926A17-C980-4290-82EA-370BACF0438B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2926A17-C980-4290-82EA-370BACF0438B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41E12758-A9E5-4ED9-9E69-84F308CCE837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E12758-A9E5-4ED9-9E69-84F308CCE837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E12758-A9E5-4ED9-9E69-84F308CCE837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41E12758-A9E5-4ED9-9E69-84F308CCE837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A142EDA-A833-4C2D-90D7-773189987B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A142EDA-A833-4C2D-90D7-773189987B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A142EDA-A833-4C2D-90D7-773189987B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A142EDA-A833-4C2D-90D7-773189987B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F94BB9-AFDE-4785-9796-E028CD7D5647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F94BB9-AFDE-4785-9796-E028CD7D5647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F94BB9-AFDE-4785-9796-E028CD7D5647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F94BB9-AFDE-4785-9796-E028CD7D5647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE893BC-D454-48D4-B36E-401F9AAEBF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE893BC-D454-48D4-B36E-401F9AAEBF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE893BC-D454-48D4-B36E-401F9AAEBF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE893BC-D454-48D4-B36E-401F9AAEBF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3328701-1AFA-48C2-8E9C-6BDE1CC2CCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3328701-1AFA-48C2-8E9C-6BDE1CC2CCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3328701-1AFA-48C2-8E9C-6BDE1CC2CCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3328701-1AFA-48C2-8E9C-6BDE1CC2CCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC1126B-3AF5-47F1-BA1B-B8EFDBE43653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC1126B-3AF5-47F1-BA1B-B8EFDBE43653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC1126B-3AF5-47F1-BA1B-B8EFDBE43653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC1126B-3AF5-47F1-BA1B-B8EFDBE43653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79191C75-6A81-4D69-8678-0D05289067E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79191C75-6A81-4D69-8678-0D05289067E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79191C75-6A81-4D69-8678-0D05289067E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79191C75-6A81-4D69-8678-0D05289067E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A79DEC1-ADB8-4BDB-A7D9-31C0B2B90BFA}
+	EndGlobalSection
+EndGlobal
