@@ -3,34 +3,34 @@
 namespace Manao.Warehouse.Management.Tests
 {
     [TestClass]
-    public class PurchaseOrderRepositoryTest : UnitTestCategory
+    public class ItemHistoryControllerTest : UnitTestCategory
     {
         [TestMethod]
-        public void can_get_purchase_order()
+        public void can_get_item_history()
         {
             // TODO
         }
 
         [TestMethod]
-        public void can_get_purchase_orders()
+        public void can_get_item_histories()
         {
             // TODO
         }
 
         [TestMethod]
-        public void can_update_purchase_order()
+        public void can_update_item_history()
         {
             // TODO
         }
 
         [TestMethod]
-        public void can_create_purchase_order()
+        public void can_create_item_history()
         {
             // TODO
         }
 
         [TestMethod]
-        public void can_delete_purchase_order()
+        public void can_delete_item_history()
         {
             // TODO
         }

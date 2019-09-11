@@ -24,6 +24,12 @@ namespace Manao.Warehouse.Management.Tests
         }
 
         [TestMethod]
+        public void can_create_purchase_order()
+        {
+            // TODO
+        }
+
+        [TestMethod]
         public void can_delete_purchase_order()
         {
             // TODO

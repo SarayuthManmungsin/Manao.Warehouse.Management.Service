@@ -24,6 +24,12 @@ namespace Manao.Warehouse.Management.Tests
         }
 
         [TestMethod]
+        public void can_create_user()
+        {
+            // TODO
+        }
+
+        [TestMethod]
         public void can_delete_user()
         {
             // TODO

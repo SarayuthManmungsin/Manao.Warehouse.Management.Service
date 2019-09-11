@@ -24,6 +24,12 @@ namespace Manao.Warehouse.Management.Tests
         }
 
         [TestMethod]
+        public void can_create_item()
+        {
+            // TODO
+        }
+
+        [TestMethod]
         public void can_delete_item()
         {
             // TODO

@@ -145,6 +145,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\ItemControllerTest.cs" />
+    <Compile Include="API\ItemHistoryControllerTest.cs" />
+    <Compile Include="API\ManaoUserControllerTest.cs" />
+    <Compile Include="API\PurchaseOrderControllerTest.cs" />
     <Compile Include="BusinessLogic\PurchaseOrderBusinessLogicTest.cs" />
     <Compile Include="BusinessLogic\ManaoUserBusinessLogicTest.cs" />
     <Compile Include="BusinessLogic\ItemHistoryBusinessLogicTest.cs" />
@@ -196,7 +200,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="API\" />
     <Folder Include="Utils\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -3,7 +3,7 @@
 namespace Manao.Warehouse.Management.Tests
 {
     [TestClass]
-    public class PurchaseOrderRepositoryTest : UnitTestCategory
+    public class PurchaseOrderControllerTest : UnitTestCategory
     {
         [TestMethod]
         public void can_get_purchase_order()
