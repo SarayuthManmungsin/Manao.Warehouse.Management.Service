@@ -10,3 +10,17 @@
 - Generic repository: Covered get(), create(), update(), delete() without an extra  implementation. (you may need an extra implement on a business logic layer)
 - MS IoC Unity integration: Use the Unity IoC framework directly from Microsoft so we don't need to worry about an update of the .NET and 3rd party confliction anymore.
 - Swagger: Integrated!.
+
+# How to run
+$ Pull the project.
+$ Rebuild the project to execute an automatically nu-get preparation.
+$ Make sure if the MongoDB is installed on your machine.
+$ Specified MongoDB route and port on the project's web.config.
+$ Run the project.
+$ To create your first record e.g. item.
+$$ POST '/api/items' to create a new item
+$$ GET '/api/items' to get 'ALL' items
+$$ GET '/api/items/{id}' to get a specific item.
+$$ PUT '/api/items/{id}' to update a specific item.
+$$ DELETE '/api/items/{id}' to delete a specific item.
+$$ These logics are apply to an all implemented routes.
