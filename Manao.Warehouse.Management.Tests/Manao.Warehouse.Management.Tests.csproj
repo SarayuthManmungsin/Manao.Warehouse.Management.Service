@@ -160,6 +160,9 @@
     <Compile Include="Repository\PurchaseOrderRepositoryTest.cs" />
     <Compile Include="TestBase\UnitTestBase.cs" />
     <Compile Include="TestBase\UnitTestCategory.cs" />
+    <Compile Include="Utils\ExtensionTest.cs" />
+    <Compile Include="Utils\LogServiceTest.cs" />
+    <Compile Include="Utils\ObjectFactoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -199,9 +202,7 @@
       <Name>Manao.Warehouse.Management.Service</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Utils\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
