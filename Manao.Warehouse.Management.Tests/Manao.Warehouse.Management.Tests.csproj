@@ -150,6 +150,10 @@
     <Compile Include="BusinessLogic\ItemHistoryBusinessLogicTest.cs" />
     <Compile Include="BusinessLogic\ItemBusinessLogicTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ItemRepositoryTest.cs" />
+    <Compile Include="Repository\ItemHistoryRepositoryTest.cs" />
+    <Compile Include="Repository\ManaoUserRepositoryTest.cs" />
+    <Compile Include="Repository\PurchaseOrderRepositoryTest.cs" />
     <Compile Include="TestBase\UnitTestBase.cs" />
     <Compile Include="TestBase\UnitTestCategory.cs" />
   </ItemGroup>
@@ -192,8 +196,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controller\" />
-    <Folder Include="Repository\" />
+    <Folder Include="API\" />
     <Folder Include="Utils\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
