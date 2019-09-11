@@ -23,4 +23,4 @@
 - GET '/api/items/{id}' to get a specific item.
 - PUT '/api/items/{id}' to update a specific item.
 - DELETE '/api/items/{id}' to delete a specific item.
-- These logics are apply to an all implemented routes.
+These logics are apply to an all implemented routes.
