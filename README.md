@@ -18,9 +18,9 @@
 * Specified MongoDB route and port on the project's web.config.
 * Run the project.
 * To create your first record e.g. item.
-** POST '/api/items' to create a new item
-** GET '/api/items' to get 'ALL' items
-** GET '/api/items/{id}' to get a specific item.
-** PUT '/api/items/{id}' to update a specific item.
-** DELETE '/api/items/{id}' to delete a specific item.
-** These logics are apply to an all implemented routes.
+-- POST '/api/items' to create a new item
+-- GET '/api/items' to get 'ALL' items
+-- GET '/api/items/{id}' to get a specific item.
+-- PUT '/api/items/{id}' to update a specific item.
+-- DELETE '/api/items/{id}' to delete a specific item.
+-- These logics are apply to an all implemented routes.
